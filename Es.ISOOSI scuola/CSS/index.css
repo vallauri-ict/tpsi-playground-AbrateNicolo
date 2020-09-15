@@ -1,0 +1,48 @@
+#wrapper {
+	/*AMPIEZZA MAI IN PIXEL*/
+    width:90%;
+	height:470px;
+	margin:0 auto;
+	border:1px solid black;
+    position:relative;
+    
+}
+
+.pedina, .bersaglio{
+    position:absolute;
+	width:150px;
+	height:40px;
+	padding:4px;
+	margin:4px;
+	border:2px solid #777;
+	/* larghezza complessiva = 150 + 10 + 10 = 170px  */
+	/* altezza complessiva di ciascun pulsante = 60px */
+	text-align:center;
+	/*per centrare scritta in box: line-height altezza scritta pari ad altezza box e a quel punto la scritta centrata*/
+	line-height:40px;
+	font-size:16pt;
+	font-weight:bold;	
+}
+
+.pedina {
+	left: 25px;
+	background-color: lightyellow;
+	z-index: 2;
+}
+
+.bersaglio {
+	right: 25px;
+	background-color: #CCC;
+	z-index: 1;    
+	
+}
+
+.verde{
+    background-color: #6F6;
+}
+.over{
+    background-color: blue;
+}
+.rosso {
+	background-color: red;
+}
